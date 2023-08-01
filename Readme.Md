@@ -12,7 +12,7 @@ This is an demostration of Attaching custom policies AWS SSO Permission Sets usi
 
 ### Solution Design
 
-- Solution Design of the Construct: ![Alt text](solution_design/AWS_EventBridge.png.png?raw=true "AWS_EventBridge")
+- Solution Design of the Construct: ![Alt text](solution_design/AWS_EventBridge.png?raw=true "AWS_EventBridge")
 
 
 ### Replace the following values
