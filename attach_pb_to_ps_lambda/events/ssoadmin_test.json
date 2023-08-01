@@ -1,0 +1,62 @@
+{
+    "version": "0",
+    "id": "efa4c6be-0ce8-1e2d-3b37-cedfb6eb1016",
+    "detail-type": "AWS API Call via CloudTrail",
+    "source": "aws.sso",
+    "account": "366330265349",
+    "time": "2023-03-16T15:44:11Z",
+    "region": "eu-north-1",
+    "resources": [],
+    "detail": {
+      "eventVersion": "1.08",
+      "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "AROAVKSX4H4CXOSQ65KPT:aritra@playgroundtech.io",
+        "arn": "arn:aws:sts::366330265349:assumed-role/Admin_Playground_Tech/aritra@playgroundtech.io",
+        "accountId": "366330265349",
+        "accessKeyId": "ASIAVKSX4H4CRFXGAGVZ",
+        "sessionContext": {
+          "sessionIssuer": {
+            "type": "Role",
+            "principalId": "AROAVKSX4H4CXOSQ65KPT",
+            "arn": "arn:aws:iam::366330265349:role/Admin_Playground_Tech",
+            "accountId": "366330265349",
+            "userName": "Admin_Playground_Tech"
+          },
+          "webIdFederationData": {},
+          "attributes": {
+            "creationDate": "2023-03-16T14:51:06Z",
+            "mfaAuthenticated": "true"
+          }
+        }
+      },
+      "eventTime": "2023-03-16T15:44:11Z",
+      "eventSource": "sso.amazonaws.com",
+      "eventName": "CreatePermissionSet",
+      "awsRegion": "eu-north-1",
+      "sourceIPAddress": "82.183.39.146",
+      "userAgent": "AWS Internal",
+      "requestParameters": {
+        "name": "Test12345",
+        "instanceArn": "arn:aws:sso:::instance/ssoins-65084d522b795ab7",
+        "sessionDuration": "PT1H",
+        "tags": []
+      },
+      "responseElements": {
+        "permissionSet": {
+          "name": "Test12345",
+          "permissionSetArn": "arn:aws:sso:::permissionSet/ssoins-65084d522b795ab7/ps-656be08b9566d538",
+          "createdDate": "Mar 16, 2023 3:44:11 PM",
+          "sessionDuration": "PT1H"
+        }
+      },
+      "requestID": "34b33d63-e261-4802-926e-76e98b527038",
+      "eventID": "62cf2ced-5788-4b16-8f50-6f671020e88e",
+      "readOnly": "false",
+      "eventType": "AwsApiCall",
+      "managementEvent": "true",
+      "recipientAccountId": "366330265349",
+      "eventCategory": "Management",
+      "sessionCredentialFromConsole": "true"
+    }
+  }
