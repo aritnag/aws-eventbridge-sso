@@ -6,7 +6,7 @@ This is an demostration of Attaching custom policies AWS SSO Permission Sets usi
 
 - AWS Components
   - AWS SSO to enable governance inside the account
-  - AWS Eventbrigde to trigger rule based on the implementation
+  - AWS Eventbridge to trigger rule based on the implementation
   - AWS Cloudtrail to monitor API calls within the AWS account
 - IaaC ( Terraform)
 
